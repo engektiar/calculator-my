@@ -1,0 +1,58 @@
+body {
+  background: rgb(230, 92, 92);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+  height: 500px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 10% 15% 75%;
+  background: rgb(172, 169, 169);
+}
+h3 {
+  text-align: right;
+}
+input {
+  width: 100%;
+  height: 20px;
+  border: 0;
+  outline: 0;
+  text-align: right;
+  font-size: 30px;
+  padding: 5px;
+}
+.btnRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.btnRow-lust {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.btn {
+  margin: 5px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: 500;
+}
+.top {
+  background-color: rgb(87, 80, 80);
+  color: #fff;
+}
+.action {
+  background-color: rgb(129, 23, 23);
+}
